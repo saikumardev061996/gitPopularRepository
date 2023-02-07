@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-language-items {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.is-active-button {
+  border: #0284c7 1px solid;
+  color: #0284c7;
+  border-radius: 10px;
+}
